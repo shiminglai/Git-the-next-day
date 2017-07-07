@@ -1,0 +1,64 @@
+
+复习：
+
+shell 
+  git bash
+
+shell命令：mkdir,touch, ls, ls -a,ls -l,ls -a -;,ls -al,rmdir,rm,rm -r,递归删除文件夹，cd 切换目录，cat，less，q退出；echo，mv。
+vi编辑器：Linux系统当中 标配
+ vi 文件名称  进入到vi编辑器的命令模式
+ i 进入输入模式
+ a 当前光标后面进行编辑
+ A 当前行末尾进行编辑
+ o 在当前行的上一行重启一行进行编辑
+ O 在当前行的下一行开始进行编辑
+
+ 底行模式 命令：
+ :w 保存 :q 退出
+ :wq 保存后退出  :q! 强退  
+ :e! 回退到上一次的保存状态
+ :set nu  设置行号
+
+ 命令行模式下的命令：
+ ZZ 保存并退出
+ yy 复制当前行 yark
+ p 粘贴  paste
+ u 撤销是一部的操作 undo
+ dd 删除当前行
+
+版本控制工具： VCS
+  集中式版本控制系统 SVN TFS
+  分布式版本控制系统 Git
+
+git init 初始化一个仓库
+git add -A  将工作区的文件提交到暂存区
+git commit -m ‘记录日志信息’ 这时可能会提示
+git push 复制的网址 master
+
+
+文件的4中状态：
+为追踪的状态  没有被管理的文件 工作区的文件状态  unstracted
+追踪的状态    提交到暂存区的文件  unstage
+提交的 状态   提交到仓储的文件 commited
+修改的状态    对原来的谋些文件进行了修改  modefield
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
